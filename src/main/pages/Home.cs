@@ -1,7 +1,7 @@
-using myhelloworld.utils;
-using myhelloworld.attributes;
+using dell.utils;
+using dell.attributes;
 
-namespace myhelloworld.main.pages
+namespace dell.src.main.pages
 {
     public class Home : HomeAttributes
     {

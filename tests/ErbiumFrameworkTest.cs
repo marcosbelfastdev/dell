@@ -1,20 +1,24 @@
 using System;
 using System.Threading;
 using NUnit;
-using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
-using myhelloworld.utils;
-using myhelloworld.main.pages;
-using myhelloworld.main.api;
+using dell.utils;
 using NUnit.Framework;
-
-namespace myhelloworld.tests
+using dell.src.main.pages;
+namespace dell.tests
 {
 
     [TestFixture]
     public class ErbiumFrameworkTest : IDisposable {
-        IWebDriver driver = DriverManager.Create();
+        IWebDriver driver;
+
+        [SetUp]
+        public void SetUp() 
+        {
+            driver = DriverManager.Create();
+        }
         
+        [Test]
         public void FindAndClick()
         {
             Home home = new Home();
@@ -22,7 +26,9 @@ namespace myhelloworld.tests
             home.clickCategoriesPreview(); 
         }
 
-        public void Dispose() {
+        [TearDown]
+        public void Dispose() 
+        {
             Thread.Sleep(10000);
             DriverManager.Driver().Quit();
         }
