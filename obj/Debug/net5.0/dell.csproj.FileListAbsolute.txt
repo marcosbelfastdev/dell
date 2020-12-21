@@ -97,3 +97,4 @@
 /home/marcos/Documents/dotnet/dell/obj/Debug/net5.0/ref/dell.dll
 /home/marcos/Documents/dotnet/dell/obj/Debug/net5.0/dell.pdb
 /home/marcos/Documents/dotnet/dell/obj/Debug/net5.0/dell.genruntimeconfig.cache
+/home/marcos/Documents/dotnet/dell/bin/Debug/net5.0/nunit.engine.core.dll
