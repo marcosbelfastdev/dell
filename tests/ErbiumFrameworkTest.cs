@@ -2,9 +2,9 @@ using System;
 using System.Threading;
 using NUnit;
 using OpenQA.Selenium;
-using dell.utils;
 using NUnit.Framework;
 using dell.src.main.pages;
+using dell.utils;
 namespace dell.tests
 {
 

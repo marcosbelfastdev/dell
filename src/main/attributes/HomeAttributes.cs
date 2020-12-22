@@ -1,8 +1,8 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support;
-using myhelloworld.utils;
+using dell.utils;
 
-namespace myhelloworld.attributes 
+namespace dell.attributes 
 {
     public class HomeAttributes : ElementFactory {
 

@@ -1,9 +1,8 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support;
 using OpenQA.Selenium.Support.UI;
-using myhelloworld.utils;
 
-namespace myhelloworld.utils
+namespace dell.utils
 {
     public class ElementFactory
     {

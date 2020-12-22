@@ -1,7 +1,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace myhelloworld.utils
+namespace dell.utils
 {
     public class DriverManager
     {
